@@ -1,0 +1,19 @@
+c:\st\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h:71:3:constexpr double std::abs(double)	16	static
+../Core/Src/ControleurPID.cpp:15:1:ControleurPID::ControleurPID(BlocMoteurs*, Odometrie*)	48	static
+../Core/Src/ControleurPID.cpp:70:1:ControleurPID::~ControleurPID()	24	static
+../Core/Src/ControleurPID.cpp:83:6:bool ControleurPID::update()	24	static
+../Core/Src/ControleurPID.cpp:139:6:void ControleurPID::_processErreursPolaires()	128	static
+../Core/Src/ControleurPID.cpp:237:6:void ControleurPID::_processProfileVitesse()	136	static
+../Core/Src/ControleurPID.cpp:393:6:void ControleurPID::setObjectifLigne(double, double)	64	static
+../Core/Src/ControleurPID.cpp:422:6:void ControleurPID::setObjectifRotation(double)	64	static
+../Core/Src/ControleurPID.cpp:449:6:void ControleurPID::setObjectif(Objectif)	56	static
+../Core/Src/ControleurPID.cpp:480:6:void ControleurPID::_processPID()	64	static
+../Core/Src/ControleurPID.cpp:660:6:void ControleurPID::_processPIDRotation()	64	static
+../Core/Src/ControleurPID.cpp:706:6:void ControleurPID::_normalizeConsignes()	32	static
+../Core/Src/ControleurPID.cpp:730:6:void ControleurPID::_applyConsignes()	24	static
+../Core/Src/ControleurPID.cpp:746:14:BlocMoteurs* ControleurPID::getBlocMoteurs()	16	static
+../Core/Src/ControleurPID.cpp:751:12:Odometrie* ControleurPID::getOdometrie()	16	static
+../Core/Src/ControleurPID.cpp:756:6:void ControleurPID::commande_vitesses(double, double)	32	static
+../Core/Src/ControleurPID.cpp:762:6:void ControleurPID::stop_moteurs()	16	static
+c:\st\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\c++\10.3.1\cmath:415:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = double; _Up = int]	24	static
+c:\st\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\c++\10.3.1\bits\stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = double]	16	static

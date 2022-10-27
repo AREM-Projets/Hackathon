@@ -1,0 +1,9 @@
+../Core/Src/HardEncodeurs.cpp:11:1:HardEncodeurs::HardEncodeurs()	16	static
+../Core/Src/HardEncodeurs.cpp:29:9:int64_t HardEncodeurs::_processDeltaTicksG()	40	static
+../Core/Src/HardEncodeurs.cpp:44:9:int64_t HardEncodeurs::_processDeltaTicksD()	40	static
+../Core/Src/HardEncodeurs.cpp:59:9:int64_t HardEncodeurs::_processDelta(uint16_t, uint16_t)	72	static
+../Core/Src/HardEncodeurs.cpp:80:9:int64_t HardEncodeurs::getDeltaTicksG()	16	static
+../Core/Src/HardEncodeurs.cpp:85:9:int64_t HardEncodeurs::getDeltaTicksD()	16	static
+../Core/Src/HardEncodeurs.cpp:90:9:int64_t HardEncodeurs::getSumTicksG()	16	static
+../Core/Src/HardEncodeurs.cpp:96:9:int64_t HardEncodeurs::getSumTicksD()	16	static
+../Core/Src/HardEncodeurs.cpp:104:6:void HardEncodeurs::debugPrint(uint16_t*, uint16_t*)	24	static

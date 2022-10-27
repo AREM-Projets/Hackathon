@@ -1,0 +1,22 @@
+09:03:46 **** Incremental Build of configuration Debug for project Robot_F103RB ****
+make -j4 all 
+arm-none-eabi-g++ "../Core/Src/main.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Inc/FileTaches.h:4,
+                 from ../Core/Src/main.cpp:29:
+../Core/Inc/Trajet.h:21:34: warning: converting to non-pointer type 'double' from NULL [-Wconversion-null]
+   21 |         Trajet(double max_dist = NULL);
+      |                                  ^~~~
+arm-none-eabi-g++ -o "Robot_F103RB.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\ettal\Documents\AREM\Hackathon\hackathon-master\hackathon-master\sortie_labyrinthe\STM32F103RBTX_FLASH.ld" -Wl,-Map="Robot_F103RB.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Robot_F103RB.elf
+ 
+arm-none-eabi-size   Robot_F103RB.elf 
+arm-none-eabi-objdump -h -S  Robot_F103RB.elf  > "Robot_F103RB.list"
+   text	   data	    bss	    dec	    hex	filename
+  40936	    132	   2096	  43164	   a89c	Robot_F103RB.elf
+Finished building: default.size.stdout
+ 
+Finished building: Robot_F103RB.list
+ 
+
+09:03:47 Build Finished. 0 errors, 1 warnings. (took 1s.340ms)
+

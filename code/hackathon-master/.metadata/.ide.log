@@ -1,0 +1,24 @@
+2022-10-24 19:39:51,435 [INFO] Activator:177 - 
+
+
+2022-10-24 19:39:51,437 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-24 19:40:17,234 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-10-24 19:40:17,236 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-10-24 19:40:17,238 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-10-24 19:51:34,496 [INFO] Activator:177 - 
+
+
+2022-10-24 19:51:34,497 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-24 19:52:04,213 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-10-24 19:52:04,215 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-10-24 19:52:04,218 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-10-24 20:27:43,783 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-24 20:27:43,784 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-24 20:27:43,785 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-27 08:32:56,973 [INFO] Activator:177 - 
+
+
+2022-10-27 08:32:56,975 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-27 08:33:28,019 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-10-27 08:33:28,020 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-10-27 08:33:28,022 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

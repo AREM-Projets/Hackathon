@@ -1,0 +1,15 @@
+../Core/Src/EtatDynamiqueRobot.cpp:3:1:EtatDynamiqueRobot::EtatDynamiqueRobot(double, double, double)	32	static
+../Core/Src/EtatDynamiqueRobot.cpp:24:6:void EtatDynamiqueRobot::versPosition(double, double, double, int)	32	static
+../Core/Src/EtatDynamiqueRobot.cpp:40:6:void EtatDynamiqueRobot::setPosition(double, double, double)	24	static
+../Core/Src/EtatDynamiqueRobot.cpp:60:6:void EtatDynamiqueRobot::translatePosition(double, double, double)	24	static
+../Core/Src/EtatDynamiqueRobot.cpp:71:6:void EtatDynamiqueRobot::setVMG(double)	24	static
+../Core/Src/EtatDynamiqueRobot.cpp:77:6:void EtatDynamiqueRobot::setVMD(double)	24	static
+../Core/Src/EtatDynamiqueRobot.cpp:86:8:double EtatDynamiqueRobot::deltaAngleTo(double, double) const	32	static
+../Core/Src/EtatDynamiqueRobot.cpp:108:8:double EtatDynamiqueRobot::getThetaRadian() const	16	static
+../Core/Src/EtatDynamiqueRobot.cpp:113:8:double EtatDynamiqueRobot::getX() const	16	static
+../Core/Src/EtatDynamiqueRobot.cpp:118:8:double EtatDynamiqueRobot::getY() const	16	static
+../Core/Src/EtatDynamiqueRobot.cpp:123:8:double EtatDynamiqueRobot::getV() const	16	static
+../Core/Src/EtatDynamiqueRobot.cpp:128:8:double EtatDynamiqueRobot::getVTheta() const	16	static
+../Core/Src/EtatDynamiqueRobot.cpp:133:8:double EtatDynamiqueRobot::getVMG() const	32	static
+../Core/Src/EtatDynamiqueRobot.cpp:143:8:double EtatDynamiqueRobot::getVMD() const	32	static
+c:\st\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\c++\10.3.1\cmath:415:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = double; _Up = int]	24	static

@@ -1,0 +1,28 @@
+15:58:54 **** Incremental Build of configuration Debug for project Robot_F103RB ****
+make -j8 all 
+arm-none-eabi-g++ "../Core/Src/main.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.cpp:569:3: warning: "/*" within comment [-Wcomment]
+  569 |   /* Liste d'instructions possibles :
+      |    
+In file included from ../Core/Inc/FileTaches.h:4,
+                 from ../Core/Src/main.cpp:29:
+../Core/Inc/Trajet.h:21:34: warning: converting to non-pointer type 'double' from NULL [-Wconversion-null]
+   21 |         Trajet(double max_dist = NULL);
+      |                                  ^~~~
+arm-none-eabi-g++ -o "Robot_F103RB.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\eleves\Desktop\HACKATHON\hackatho\Robot_F103RB\STM32F103RBTX_FLASH.ld" -Wl,-Map="Robot_F103RB.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Robot_F103RB.elf
+ 
+arm-none-eabi-size   Robot_F103RB.elf 
+arm-none-eabi-objdump -h -S  Robot_F103RB.elf  > "Robot_F103RB.list"
+arm-none-eabi-objcopy  -O binary  Robot_F103RB.elf  "Robot_F103RB.bin"
+   text	   data	    bss	    dec	    hex	filename
+  43876	    132	   2080	  46088	   b408	Robot_F103RB.elf
+Finished building: default.size.stdout
+ 
+Finished building: Robot_F103RB.bin
+ 
+Finished building: Robot_F103RB.list
+ 
+
+15:58:55 Build Finished. 0 errors, 2 warnings. (took 1s.353ms)
+

@@ -1,0 +1,91 @@
+15:57:40 **** Incremental Build of configuration Debug for project Robot_F103RB ****
+make -j8 all 
+arm-none-eabi-g++ "../Core/Src/BlocMoteurs.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/BlocMoteurs.d" -MT"Core/Src/BlocMoteurs.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/BlocMoteurs.o"
+arm-none-eabi-g++ "../Core/Src/ControleurPID.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/ControleurPID.d" -MT"Core/Src/ControleurPID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ControleurPID.o"
+arm-none-eabi-g++ "../Core/Src/DefileurTaches.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/DefileurTaches.d" -MT"Core/Src/DefileurTaches.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/DefileurTaches.o"
+arm-none-eabi-g++ "../Core/Src/EtatDynamiqueRobot.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/EtatDynamiqueRobot.d" -MT"Core/Src/EtatDynamiqueRobot.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/EtatDynamiqueRobot.o"
+arm-none-eabi-g++ "../Core/Src/FileTaches.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/FileTaches.d" -MT"Core/Src/FileTaches.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/FileTaches.o"
+arm-none-eabi-g++ "../Core/Src/HardEncodeurs.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/HardEncodeurs.d" -MT"Core/Src/HardEncodeurs.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/HardEncodeurs.o"
+arm-none-eabi-g++ "../Core/Src/Odometrie.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/Odometrie.d" -MT"Core/Src/Odometrie.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/Odometrie.o"
+arm-none-eabi-g++ "../Core/Src/main.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/Odometrie.cpp:1:
+../Core/Inc/Odometrie.h: In constructor 'Odometrie::Odometrie(uint32_t)':
+../Core/Inc/Odometrie.h:44:18: warning: 'Odometrie::_min_update_period' will be initialized after [-Wreorder]
+   44 |         uint32_t _min_update_period;
+      |                  ^~~~~~~~~~~~~~~~~~
+../Core/Inc/Odometrie.h:42:28: warning:   'EtatDynamiqueRobot Odometrie::etat' [-Wreorder]
+   42 |         EtatDynamiqueRobot etat;
+      |                            ^~~~
+../Core/Src/Odometrie.cpp:4:1: warning:   when initialized here [-Wreorder]
+    4 | Odometrie::Odometrie(uint32_t min_update_period) : _min_update_period(min_update_period), etat(INIT_X, INIT_Y, INIT_THETA)
+      | ^~~~~~~~~
+../Core/Src/main.cpp:568:3: warning: "/*" within comment [-Wcomment]
+  568 |   /* Liste d'instructions possibles :
+      |    
+In file included from ../Core/Inc/FileTaches.h:4,
+                 from ../Core/Inc/DefileurTaches.h:5,
+                 from ../Core/Src/DefileurTaches.cpp:1:
+../Core/Inc/Trajet.h:21:34: warning: converting to non-pointer type 'double' from NULL [-Wconversion-null]
+   21 |         Trajet(double max_dist = NULL);
+      |                                  ^~~~
+In file included from ../Core/Inc/ControleurPID.h:8,
+                 from ../Core/Src/ControleurPID.cpp:1:
+../Core/Inc/Trajet.h:21:34: warning: converting to non-pointer type 'double' from NULL [-Wconversion-null]
+   21 |         Trajet(double max_dist = NULL);
+      |                                  ^~~~
+../Core/Src/ControleurPID.cpp: In member function 'void ControleurPID::_processProfileVitesse()':
+../Core/Src/ControleurPID.cpp:269:12: warning: unused variable 'consigne_originaleG' [-Wunused-variable]
+  269 |     double consigne_originaleG = consigneG;
+      |            ^~~~~~~~~~~~~~~~~~~
+../Core/Src/ControleurPID.cpp:270:12: warning: unused variable 'consigne_originaleD' [-Wunused-variable]
+  270 |     double consigne_originaleD = consigneD;
+      |            ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/FileTaches.h:4,
+                 from ../Core/Src/FileTaches.cpp:1:
+../Core/Inc/Trajet.h:21:34: warning: converting to non-pointer type 'double' from NULL [-Wconversion-null]
+   21 |         Trajet(double max_dist = NULL);
+      |                                  ^~~~
+In file included from ../Core/Inc/FileTaches.h:4,
+                 from ../Core/Src/main.cpp:29:
+../Core/Inc/Trajet.h:21:34: warning: converting to non-pointer type 'double' from NULL [-Wconversion-null]
+   21 |         Trajet(double max_dist = NULL);
+      |                                  ^~~~
+arm-none-eabi-g++ -o "Robot_F103RB.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\eleves\Desktop\HACKATHON\hackatho\Robot_F103RB\STM32F103RBTX_FLASH.ld" -Wl,-Map="Robot_F103RB.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Robot_F103RB.elf
+ 
+arm-none-eabi-size   Robot_F103RB.elf 
+arm-none-eabi-objdump -h -S  Robot_F103RB.elf  > "Robot_F103RB.list"
+arm-none-eabi-objcopy  -O binary  Robot_F103RB.elf  "Robot_F103RB.bin"
+   text	   data	    bss	    dec	    hex	filename
+  44724	    132	   2080	  46936	   b758	Robot_F103RB.elf
+Finished building: default.size.stdout
+ 
+Finished building: Robot_F103RB.bin
+ 
+Finished building: Robot_F103RB.list
+ 
+15:58:54 **** Incremental Build of configuration Debug for project Robot_F103RB ****
+make -j8 all 
+arm-none-eabi-g++ "../Core/Src/main.cpp" -mcpu=cortex-m3 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.cpp:569:3: warning: "/*" within comment [-Wcomment]
+  569 |   /* Liste d'instructions possibles :
+      |    
+In file included from ../Core/Inc/FileTaches.h:4,
+                 from ../Core/Src/main.cpp:29:
+../Core/Inc/Trajet.h:21:34: warning: converting to non-pointer type 'double' from NULL [-Wconversion-null]
+   21 |         Trajet(double max_dist = NULL);
+      |                                  ^~~~
+arm-none-eabi-g++ -o "Robot_F103RB.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\eleves\Desktop\HACKATHON\hackatho\Robot_F103RB\STM32F103RBTX_FLASH.ld" -Wl,-Map="Robot_F103RB.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Robot_F103RB.elf
+ 
+arm-none-eabi-size   Robot_F103RB.elf 
+arm-none-eabi-objdump -h -S  Robot_F103RB.elf  > "Robot_F103RB.list"
+arm-none-eabi-objcopy  -O binary  Robot_F103RB.elf  "Robot_F103RB.bin"
+   text	   data	    bss	    dec	    hex	filename
+  43876	    132	   2080	  46088	   b408	Robot_F103RB.elf
+Finished building: default.size.stdout
+ 
+Finished building: Robot_F103RB.bin
+ 
+Finished building: Robot_F103RB.list
+ 
