@@ -50,8 +50,31 @@ taches->addRotation(-PI/2);
 taches->addLigne(0, 0);
 taches->addRotation(0);
 ```
-### Récupération des valeurs du sonar
+### Récupération de valeurs
+
+**Les valeurs renvoyées par les fonctions de mesure ne sont pas mises à jour instantanément.** 
+
+Par mesure de sécurité, il est conseillé de considérer qu'elles sont mises à jour à chaque itération de la boucle de fonctionnement.
+
+Dans le code du robot :
+```cpp
+// Mauvais code : récupère les valeurs d'il y a 1s
+if(defileur->update()) 
+{
+    taches->sonarscan();
+    taches->addWait(1000); 
+    dist = sonar->getValue(front);
+}
+
+// Bon code : récupère les valeurs qui viennent d'être mesurées
+if(defileur->update()) 
+{
+    dist = sonar->getValue(front); // récup des valeurs au début
+    taches->addWait(1000); 
+    taches->sonarscan(); // mesures à la fin
+}
+```
 
 La fonction **sonar->getValue(dir)** récupère les **dernières valeurs mesurées** par le sonar.
 
-Pour lancer une mesure, utiliser **taches->sonarscan()**. Si aucune mesure n'a été faite avant la récupération des valeurs, vous récupérez essentiellement des valeurs aléatoires.
+Pour lancer une mesure, utiliser **taches->sonarscan()**. Si aucune mesure n'a été faite avant la récupération des valeurs, vous récupérez essentiellement des valeurs aléatoires (welcome to the beautiful world of *undefined behavior*).
