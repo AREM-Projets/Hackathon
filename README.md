@@ -37,7 +37,7 @@ Les fonctions de déplacement peuvent donc être décrites ainsi :
 - **addLigne(X, Y)** - faire une ligne entre les coordonnées actuelles du robot et le point (X, Y)
 - **addRotation(Theta)** - regarder l'angle Theta
 
-**Attention** : addRotation(PI/2) dit au robot de **regarder dans la direction PI/2**, et non de tourner de PI/2
+**Attention** : addRotation(PI/2) dit au robot de **s'orienter dans la direction PI/2**, et non de tourner de PI/2
 
 Par exemple, le code suivant permet au robot de dessiner un carré :
 ```cpp
