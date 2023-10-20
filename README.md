@@ -78,3 +78,7 @@ if(defileur->update())
 La fonction **sonar->getValue(dir)** récupère les **dernières valeurs mesurées** par le sonar.
 
 Pour lancer une mesure, utiliser **taches->sonarscan()**. Si aucune mesure n'a été faite avant la récupération des valeurs, vous récupérez essentiellement des valeurs aléatoires (welcome to the beautiful world of *undefined behavior*).
+
+## Troubleshooting
+
+Attention, le robot peut ne pas démarrer si aucune action (voir fonctions à utiliser) ne se trouve avant la boucle while
